@@ -41,8 +41,7 @@ public class Empl {
     private String date_debut;
     private String date_fin;
     @Column(
-            name = "tele",
-            unique = true
+            name = "tele"
     )
     private String tele;
     private String gmail;
